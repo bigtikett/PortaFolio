@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">    
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Scripts JS -->
+    <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/dark.js" defer></script>
+    <script src="assets/js/organizer.js"></script>
+    <title>Portafolio - AndrésZc</title>
+</head>
+<body>
+
+    <!-- Layout Principal -->
+    <div class="layout">
+
+        <!-- Barra lateral -->
+        <aside class="layout__aside">
+            
+            <section class="aside__user-info">
+
+                <!-- Información general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/Andrés-FP.jpg" alt="Foto de perfil del usuario" class="user-info__image">
+                    </div>
+
+                    <h2 class="user-info__name">Andrés Fernández</h2>
+                    <h4 class="user-info__job">Desarrollador Web</h4>
+                </div>
+                <!-- Menú de navegación -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <div class="switcher__btn">
+                            <li class="menu__option-dark--theme">
+                              <a  class="menu__link">
+                                <i class="menu__icon">
+                                  <svg xmlns="http://www.w3.org/2000/svg"    class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                                    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+                                  </svg>
+                                </i>
+                                <span class="menu__overlay">Modo Oscuro</span>
+                              </a>
+                            </li>
+                            <li class="menu__option-light--theme">
+                              <a  class="menu__link">
+                                <i class="menu__icon">
+                                  <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                                    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                                  </svg>
+                                </i>
+                                <span class="menu__overlay">Modo Claro</span>
+                              </a>
+                            </li>
+                          </div>
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fas fa-home"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link ">
+                                <i class="menu__icon fas fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fas fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fas fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+                        <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fas fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li> -->
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fas fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Links a redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://twitter.com/AndresZc_pro" target="_blank" class="social__link" title="Twitter">
+                                <i class="social__icon fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/andr%C3%A9s-fern%C3%A1ndez-cano-3455a4302/" target="_blank" class="social__link" title="Linkedin">
+                                <i class="social__icon fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://github.com/bigtikett" target="_blank" class="social__link" title="Github">
+                                <i class="social__icon fab fa-square-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Botón del curriculum -->
+                <div class="user-info__buttons">
+                    <a title="Descarga directa" href="https://drive.google.com/uc?export=download&id=1wG44dnAVk_x_7TxMSHpMes0rvVhkOQBR" download="Portafolio - AndrésZc.pdf" class="user-info__btn">Descargar CV</a>
+                </div>
+                <!-- Pie de página -->
+                <footer class="user-info__footer">
+                    &copy; 2024 AndrésZc Web
+                </footer>
+            </section>
+
+        </aside>
+
+        <!-- Menú responsive -->
+        <div class="layout__menu-toggle">
+            <i class=" menu-toggle__icon fas fa-bars"></i>
+            <i class=" menu-toggle__icon fas fa-xmark"></i>
+        </div>
+
+        <!-- Contenido principal -->
+        <main class="layout__content">
+
+            <section class="content__page content__portfolio">
+                <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SITIO WEB -->
+
+                <header class="portfolio__header">
+                    <h1 class="portfolio__title">Portafolio</h1>
+                </header>
+
+                <nav class="portfolio__navbar">
+                    <ul class="portfolio__menu">
+                        <li class="portfolio__option portfolio__option--active" data-filter="all">
+                            <a href="#" class="portfolio__link">Todo</a>
+                        </li>                        
+                        <li class="portfolio__option" data-filter="web">
+                            <a href="#" class="portfolio__link">Web</a>
+                        </li>
+                        <li class="portfolio__option" data-filter="redes-sociales">
+                            <a href="#" class="portfolio__link portfolio__link--work">Redes sociales</a>
+                        </li>
+                        <li class="portfolio__option" data-filter="apps">
+                            <a href="#" class="portfolio__link">Apps</a>
+                        </li>
+                        <li class="portfolio__option" data-filter="juegos">
+                            <a href="#" class="portfolio__link">Juegos</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="portfolio__gallery">
+
+                    <figure class="gallery__item web">
+                        <div class="gallery__container--image">
+                            <a href="https://bigtikett.github.io/maquetacion-web2/" target="_blank" class="gallery__link">
+                                <img src="assets/img/image.png" class="gallery__image" alt="Imagen web agencia de diseño">
+                            </a>
+                            <div class="blur-overlay"></div>
+                        </div>
+
+                        <figcaption class="gallery__title">Agencia de Diseño</figcaption>
+                        <i title="Web de Empresa" class="gallery__icon fas fa-desktop"></i>
+                        <span class="gallery__category">Web</span>
+                    </figure>
+
+                    <figure class="gallery__item web">
+                        <div class="gallery__container--image">
+                            <a href="https://bigtikett.github.io/Blog-animado/" target="_blank" class="gallery__link">
+                                <img src="assets/img/curso-animaciones.png" class="gallery__image" alt="Imagen de blog">
+                            </a>
+                            <div class="blur-overlay"></div>
+                        </div>
+
+                        <figcaption class="gallery__title">Blog animado con CSS</figcaption>
+                        <i title="Blog" class="gallery__icon fas fa-blog"></i>
+                        <span class="gallery__category">Web</span>
+                    </figure>
+
+                    <figure class="gallery__item web">
+                        <div class="gallery__container--image">
+                            <a href="https://bigtikett.github.io/Plataforma-de-cursos/" target="_blank" class="gallery__link">
+                                <img src="assets/img/plataforma-curso.png" class="gallery__image" alt="Imagen de plataforma de cursos">
+                            </a>
+                            <div class="blur-overlay"></div>
+                        </div>
+
+                        <figcaption class="gallery__title">Plataforma de Cursos</figcaption>
+                        <i title="Plataforma web" class="gallery__icon fas fa-graduation-cap"></i>
+                        <span class="gallery__category">Web</span>
+                    </figure>
+
+                    <figure class="gallery__item juegos">
+                        <div class="gallery__container--image">
+                            <a href="https://bigtikett.github.io/Juego-QQSM/" target="_blank" class="gallery__link">
+                                <img src="assets/img/qqsm.png" class="gallery__image" alt="Imagen juego quien quiere ser millonario">
+                            </a>
+                            <div class="blur-overlay"></div>
+                        </div>
+
+                        <figcaption class="gallery__title">Juego web Quien quiere ser millonario</figcaption>
+                        <i title="Juego web" class="gallery__icon fas fa-gamepad"></i>
+                        <span class="gallery__category">Juego</span>
+                    </figure>
+
+                    <figure class="gallery__item apps juegos">
+                        <div class="gallery__container--image">
+                            <a href="https://bigtikett.github.io/Juego-Monkey-Type/" target="_blank" class="gallery__link">
+                                <img src="assets/img/mtypeclon.jpg" class="gallery__image" alt="Imagen clon monkeytype">
+                            </a>
+                            <div class="blur-overlay"></div>
+                        </div>
+
+                        <figcaption class="gallery__title">Clon Monkeytype</figcaption>
+                        <i title="Juego" class="gallery__icon fas fa-gamepad"></i>
+                        <span class="gallery__category">Juego</span>
+                    </figure>
+
+                    <figure class="gallery__item ">
+                        <div class="gallery__container--image">
+                            <a href="" class="gallery__link">
+                                <img src="assets/img/image copy.png" class="gallery__image img-work" alt="Imagen proyecto en construcción">
+                            </a>
+                            <div class="blur-overlay"></div>
+                        </div>
+
+                        <figcaption class="gallery__title">Próximamente</figcaption>
+                        <i title="En construcción" class="gallery__icon fas fa-network-wired"></i>
+                        <span class="gallery__category">Proyecto</span>
+                    </figure>
+
+                    <figure class="gallery__item redes-sociales">
+                        <div class="redes-sociales--work">
+                            
+                                <img   <?xml version="1.0" ?>
+
+                                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                <svg class="redes-sociales--icon" display="inline-block" viewBox="0 0 512 512" enable-background="new 0 0 512 512" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                
+                                <g>
+                                
+                                <path d="M97.73,377.029H73.514c-5.014,0-9.081,4.068-9.081,9.081s4.068,9.081,9.081,9.081H97.73c5.014,0,9.081-4.068,9.081-9.081   S102.744,377.029,97.73,377.029z"/>
+                                
+                                <path d="M97.73,425.461H73.514c-5.014,0-9.081,4.068-9.081,9.081s4.068,9.081,9.081,9.081H97.73c5.014,0,9.081-4.068,9.081-9.081   S102.744,425.461,97.73,425.461z"/>
+                                
+                                <path d="M170.379,377.029h-12.108c-5.014,0-9.081,4.068-9.081,9.081s4.068,9.081,9.081,9.081h12.108   c5.014,0,9.081-4.068,9.081-9.081S175.393,377.029,170.379,377.029z"/>
+                                
+                                <path d="M170.379,425.461h-12.108c-5.014,0-9.081,4.068-9.081,9.081s4.068,9.081,9.081,9.081h12.108   c5.014,0,9.081-4.068,9.081-9.081S175.393,425.461,170.379,425.461z"/>
+                                
+                                <path d="M97.73,328.596H73.514c-5.014,0-9.081,4.068-9.081,9.081s4.068,9.081,9.081,9.081H97.73c5.014,0,9.081-4.068,9.081-9.081   S102.744,328.596,97.73,328.596z"/>
+                                
+                                <path d="M230.92,292.271c-5.014,0-9.081,4.068-9.081,9.081v17.559h-66.595v-78.1c0-5.014-4.068-9.081-9.081-9.081   c-5.014,0-9.081,4.068-9.081,9.081v27.243H34.162v-51.46c0-5.014-4.068-9.081-9.081-9.081S16,211.582,16,216.595v260.326   c0,8.348,6.787,15.135,15.135,15.135h193.731c8.348,0,15.135-6.787,15.135-15.135V301.353   C240.002,296.339,235.934,292.271,230.92,292.271z M221.839,473.894H34.162V286.217h102.92v50.857h84.757V473.894z"/>
+                                
+                                <path d="M485.193,16.349H107.621c-3.843,0-7.426,2.069-9.383,5.439L65.627,78.853c-1.91,3.334-1.904,7.473,0.024,10.808   c1.927,3.323,5.51,5.392,9.353,5.392h113.857c-0.266,0.851-0.532,35.591-0.532,35.591h-85.083c-8.047,0-14.597,6.551-14.597,14.603   v33.865c0,8.052,6.551,14.603,14.597,14.603h182.699c8.047,0,14.597-6.551,14.597-14.603v-33.865   c0-8.052-6.551-14.603-14.597-14.603h-79.454c0,0-0.272-34.74-0.532-35.591h160.936v400.599h18.162v-67.174l42.379,42.379v24.796   h18.162V95.052h39.594c5.96,0,10.807-4.848,10.807-10.819V27.156C496,21.197,491.152,16.349,485.193,16.349z M282.38,175.553   H106.811v-26.747H282.38V175.553z M385.057,153.76l34.527,34.527l-34.527,34.527V153.76z M385.057,243.697l34.527,34.527   l-34.527,34.527V243.697z M400.305,233.256l27.131-27.131v54.262L400.305,233.256z M427.436,170.45l-27.131-27.131l27.131-27.131   V170.45z M373.919,76.89l34.303-34.303l34.297,34.303H373.919z M213.621,46.915l29.975,29.975h-59.944L213.621,46.915z    M166.058,68.802l-34.291-34.291h68.576L166.058,68.802z M226.906,34.511h68.57l-34.285,34.291L226.906,34.511z M308.76,46.915   l29.975,29.975h-59.95L308.76,46.915z M356.33,68.802l-34.291-34.291h68.576L356.33,68.802z M110.134,37.58   c0.438,1.058,38.329,39.31,38.329,39.31H87.668L110.134,37.58z M422.89,95.052l-37.832,37.826V95.052H422.89z M385.057,333.627   l36.076,36.07l-36.076,37.714V333.627z M427.436,445.167l-27.273-27.273l27.273-28.509V445.167z M400.305,323.192l27.131-27.131   v54.256L400.305,323.192z M477.838,76.89h-9.755c-0.095-0.106-42.255-42.379-42.255-42.379h52.01V76.89z"/>
+                                
+                                </g>
+                                
+                                </svg>
+                            Todavía nada!
+                        </div>
+                    </figure>
+                </section>
+
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>

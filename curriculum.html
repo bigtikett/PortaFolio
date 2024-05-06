@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">    
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Scripts JS -->
+    <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/dark.js" defer></script>
+    <title>Portafolio - AndrésZc</title>
+</head>
+<body>
+
+    <!-- Layout Principal -->
+    <div class="layout">
+
+        <!-- Barra lateral -->
+        <aside class="layout__aside">
+            
+            <section class="aside__user-info">
+
+                <!-- Información general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/Andrés-FP.jpg" alt="Foto de perfil del usuario" class="user-info__image">
+                    </div>
+
+                    <h2 class="user-info__name">Andrés Fernández</h2>
+                    <h4 class="user-info__job">Desarrollador Web</h4>
+                </div>
+                <!-- Menú de navegación -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <div class="switcher__btn">
+                            <li class="menu__option-dark--theme">
+                              <a  class="menu__link">
+                                <i class="menu__icon">
+                                  <svg xmlns="http://www.w3.org/2000/svg"    class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+                                    <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                                    <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+                                  </svg>
+                                </i>
+                                <span class="menu__overlay">Modo Oscuro</span>
+                              </a>
+                            </li>
+                            <li class="menu__option-light--theme">
+                              <a  class="menu__link">
+                                <i class="menu__icon">
+                                  <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                                    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                                  </svg>
+                                </i>
+                                <span class="menu__overlay">Modo Claro</span>
+                              </a>
+                            </li>
+                          </div>
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fas fa-home"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link ">
+                                <i class="menu__icon fas fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fas fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fas fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+                        <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fas fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li> -->
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fas fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Links a redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://twitter.com/AndresZc_pro" target="_blank" class="social__link" title="Twitter">
+                                <i class="social__icon fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/andr%C3%A9s-fern%C3%A1ndez-cano-3455a4302/" target="_blank" class="social__link" title="Linkedin">
+                                <i class="social__icon fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="https://github.com/bigtikett" target="_blank" class="social__link" title="Github">
+                                <i class="social__icon fab fa-square-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Botón del curriculum -->
+                <div class="user-info__buttons">
+                    <a title="Descarga directa" href="https://drive.google.com/uc?export=download&id=1wG44dnAVk_x_7TxMSHpMes0rvVhkOQBR" download="Portafolio - AndrésZc.pdf" class="user-info__btn">Descargar CV</a>
+                </div>
+                <!-- Pie de página -->
+                <footer class="user-info__footer">
+                    &copy; 2024 AndrésZc Web
+                </footer>
+            </section>
+
+        </aside>
+
+        <!-- Menú responsive -->
+        <div class="layout__menu-toggle">
+            <i class=" menu-toggle__icon fas fa-bars"></i>
+            <i class=" menu-toggle__icon fas fa-xmark"></i>
+        </div>
+
+        <!-- Contenido principal -->
+        <main class="layout__content">
+
+            <section class="content__page content__resume">
+                <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SITIO WEB -->
+
+                <header class="resume__header">
+                    <h1 class="resume__title">Curriculum</h1>
+                </header>
+
+                <div class="resume__container">
+
+                    <section class="resume__left">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Formación</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2024</h4>
+                                    <span class="timeline__center">Udemy</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo Web con HTML, CSS y JavaScript
+
+                                    </h3>
+                                    <p class="timeline__text">
+                                        He completado cursos en Udemy enfocados en el desarrollo web utilizando HTML, CSS y JavaScript. Estos cursos me han proporcionado una base sólida en la creación de sitios web modernos y funcionales.                                </div>
+                            </article>
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2024</h4>
+                                    <span class="timeline__center">Autodidacta</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Programación con C#</h3>
+                                    <p class="timeline__text">
+                                        Me he dedicado de manera autodidacta a explorar el lenguaje de programación C#. A través de la experimentación, proyectos personales y recursos en línea, he adquirido habilidades en el desarrollo de aplicaciones utilizando este lenguaje. A pesar de no contar con certificados formales, mi compromiso con el aprendizaje continuo y la resolución de problemas me ha permitido familiarizarme con los conceptos fundamentales y aplicaciones prácticas de C# en el desarrollo de software.                                    </p>
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Experiencia</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timelines__timeline">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2024</h4>
+                                    <span class="timeline__center">Autodidacta</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Experiencia Laboral</h3>
+                                    <p class="timeline__text">
+                                        Aunque mi trayectoria laboral directa en el campo del desarrollo de software es limitada, mi enfoque principal ha sido adquirir habilidades sólidas a través de la formación autodidacta y cursos en línea. Aunque no tengo experiencia laboral formal, he dedicado tiempo y esfuerzo a construir una base sólida en desarrollo web y programación. Estoy entusiasmado por aplicar mis conocimientos y habilidades en entornos profesionales y seguir creciendo como desarrollador de software.                                    </p>
+                                </div>
+                            </article>
+
+                            
+
+                        </div>
+
+
+                    </section>
+
+                    <section class="resume__right">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">diseño</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Web <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">70%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Experiencia sólida en el diseño y desarrollo de sitios web responsivos utilizando HTML, CSS y JavaScript.
+                                    </p>
+                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p1"></div>
+                                
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Mockups <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">40%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Capacidad para crear mockups y prototipos de diseño utilizando herramientas como Figma.                                    </p>
+                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p2"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Logos <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">60%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Experiencia en la creación de logotipos atractivos y representativos para empresas y marcas.                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p3"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Banners <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">60%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Habilidad para diseñar banners publicitarios creativos y llamativos para campañas en línea.                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p4"></div>
+                            </div>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">código</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">HTML 5 <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">97%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Amplia experiencia en el uso de HTML 5 para la estructura y semántica de sitios web modernos.                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p5"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">JavaScript <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">45%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Conocimiento práctico en JavaScript para agregar interactividad y funcionalidad a los sitios web.                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p6"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">React <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">30%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Familiaridad con el framework de JavaScript React y su uso en la creación de interfaces de usuario dinámicas.                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p7"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">CSS 3 <i class="skills__readme fas fa-eye"></i></h4>
+                                
+                                <span class="skills__number">80%</span>
+                                <span class="skills__description">
+                                    <h4>Descripción</h4>
+                                    <hr>
+                                    <p class="description__text">
+                                        Competencia en el uso de CSS 3 para estilizar y diseñar la apariencia visual de los sitios web.                                </span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p8"></div>
+                            </div>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Áreas de Conocimientos</h2>
+                        </header>
+
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledges__options">Programación</li>
+                                <li class="knowledges__options">Desarrollo Web</li>
+                                <li class="knowledges__options">Diseño Web</li>
+                                <li class="knowledges__options">React.js</li>
+                                <li class="knowledges__options">Comunicación</li>
+                                <li class="knowledges__options">Bootstrap</li>
+                                <li class="knowledges__options">Sass</li>
+                                <li class="knowledges__options">Responsive Design</li>
+                                <li class="knowledges__options">Web Accessibility</li>
+                            </ul>
+                        </div>
+
+                    </section>
+
+                </div>
+                
+                <div class="resume__certificates">
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtitle">Certificados</h2>
+                    </header>
+
+                    <section class="certificates__container">
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/HTML5.jpg" class="certificates__image" alt="Imagen del Certificado">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Curso de HTML 5 desde cero: El más completo en Español</h4>
+                                <span class="certificate__id">ID de certificado: UC-cfaf666b-bd6f-456a-9894-6fc8a6119594</span>
+                                <span title="Ver certificado" class="certificate__url">Url del certificado: <a href="https://www.udemy.com/certificate/UC-cfaf666b-bd6f-456a-9894-6fc8a6119594/">ude.my/UC-cfaf666b-bd6f-456a-9894-6fc8a6119594</a></span>
+                                <span class="certificate__date">Fecha <strong>20 Abril 2024</strong></span>
+                                <span class="certificate__duration">Duración <strong>4 horas en total</strong></span>
+                            </div>
+                        </article>
+
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/Máster en CSS.jpg" class="certificates__image" alt="Imagen del Certificado">
+                            </div>
+
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Máster en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap</h4>
+                                <span class="certificate__id">ID de certificado: UC-425ed952-5128-4dda-92bb-5f50aa6682c3</span>
+                                <span title="Ver certificado" class="certificate__url">Url del certificado: <a href="https://www.udemy.com/certificate/UC-425ed952-5128-4dda-92bb-5f50aa6682c3/" target="_blank">ude.my/UC-425ed952-5128-4dda-92bb-5f50aa6682c3</a></span>
+                                <span class="certificate__date">Fecha <strong>25 Abril 2024</strong></span>
+                                <span class="certificate__duration">Duración <strong> 20.5 horas en total</strong></span>
+                            </div>
+                        </article>
+
+                    </section>
+                </div>
+
+            </section>
+        </main>
+    </div>
+    <script>
+ document.querySelectorAll('.skills__readme').forEach(function(icon) {
+    icon.addEventListener('mouseenter', function() {
+        let description = this.closest('.skills__title').querySelector('.skills__description');
+        description.style.opacity = '1';
+        description.style.transform = 'translateY(-25px)';
+    });
+    
+    icon.addEventListener('mouseleave', function() {
+        let description = this.closest('.skills__title').querySelector('.skills__description');
+        description.style.opacity = '0';
+        description.style.transform = 'translateY(-300px)';
+    });
+});
+
+    </script>
+</body>
+</html>

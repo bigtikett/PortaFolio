@@ -1,0 +1,176 @@
+/* MODO OSCURO */
+
+:root {
+    --color-primary: #27272E;
+    --color-secondary: #71B053;
+    
+    --color-background: #f2f7f9;
+    --color-transparent: transparent;
+    
+    --color-icon: #b5b6b7;
+    --color-title: #d3d3d4;
+    --color-subtitle: #99a1aa;
+    --color-text: #d3d3d4;
+    --color-border-reviews: #e5e6e7;
+    --color-company: #a5a6a7;
+
+    --color-hover-dark: #ffdc60;
+
+    --color-background-certificate: #27272E;
+    --color-background-contact: #292930;
+}
+
+body {
+    position: absolute;
+    background-color: #212121;
+    backdrop-filter: blur(5px) ;
+    filter: drop-shadow(0px 0px 1px  var(--color-secondary));
+}
+
+.loader2 {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    font-size: 17px;
+    font-family: 'poppins', Helvetica, sans-serif;
+    line-height: 1.4;
+    font-weight: bold;
+    background: linear-gradient(#e5e6e7 0 0) left, linear-gradient(#e5e6e7 0 0) right;
+    background-repeat: no-repeat;
+    border-right: 5px solid #0000;
+    border-left: 5px solid #0000;
+    background-origin: border-box;
+    position: relative;
+    animation: l9-0 2s infinite;
+  }
+
+  .user-info__container-image::after {    
+    background-image: -webkit-repeating-radial-gradient(center center, black, black 1px, transparent 0px, transparent 100%);    
+}
+
+  .social__option:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .about__title::after, .resume__title::after, .portfolio__title::after, .blog__title::after, .contact__title::after {
+    filter: brightness(120%);
+  }
+
+/* SECCIÓN SOBRE MI */
+.personal-info__value a {
+    display: inline-block;
+    color: var(--color-hover-dark);
+}
+
+.personal-info__value a:hover {
+    filter: brightness(150%);
+}
+
+.personal-info__value i svg {
+    fill: var(--color-secondary);
+}
+
+.reviews__review {
+    border: 2px solid var(--color-secondary);
+}
+
+.clients__link {
+    background-color: var(--color-background);
+    border-radius: 3rem;
+}
+
+.clients__link:hover {
+    background-color: var(--color-secondary);
+}
+
+.prices__box {
+    border: 2px solid var(--color-secondary);
+}
+
+.prices__btn {
+    border: 2px solid var(--color-secondary);
+    box-shadow: 0 10px 10px -8px var(--color-secondary);
+}
+
+.extra__info {
+    border: 2px solid var(--color-secondary);
+}
+
+/* SECCIÓN CURRICULUM */
+
+.skills__readme:hover {
+    color: var(--color-secondary);
+    filter: brightness(150%) blur(1px);
+}
+
+.description__text {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+.skills__description h4 {
+    color: var(--color-primary);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.certificate__title,
+.certificate__id,
+.certificate__url {
+    color: var(--color-primary);
+}
+
+.certificate__url a {
+    color: blue;
+    opacity: 0.9;
+}
+
+.certificate__url a:hover {
+    color: blueviolet;
+}
+
+/* PORTAFOLIO */
+.portfolio__link:hover {
+    filter: brightness(150%);
+}
+
+.article__icon {
+    color: var(--color-secondary);
+    filter: brightness(150%);
+}
+
+.theme-transition {
+    transition: opacity 0.6s ease-in-out; /* Define la transición de opacidad */
+}
+
+.menu__option-light--theme,
+.menu__option-dark--theme {
+    opacity: 1; /* Inicialmente oculta los elementos */
+}
+
+.menu__option:hover .menu__icon,
+.menu__link--active .menu__icon{
+    filter: brightness(150%);
+} 
+
+.menu__option-dark--theme:hover .menu__icon  svg,
+.menu__option-light--theme:hover .menu__icon  svg {
+    filter: brightness(150%);
+    
+}
+
+.article__bottom {
+    border: 0.1rem solid var(--color-secondary);
+    border-top: 0;
+}
+
+.services__service {
+    background-color: var(--color-background-certificate);
+    border: 1px solid var(--color-secondary);
+}
+
+.redes-sociales--icon {
+    color: white;
+    fill: white;
+}

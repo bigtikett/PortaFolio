@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <!-- Estilos -->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/loader.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts JS -->
+    <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/dark.js" defer></script>
+    <title>Portafolio - AndrésZc</title>
+  </head>
+  <body>
+    <!-- Layout Principal -->
+    <div class="layout">
+      <!-- Barra lateral -->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!-- Información general usuario -->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                src="assets/img/Andrés-FP.jpg"
+                alt="Foto de perfil del usuario"
+                class="user-info__image"
+              />
+            </div>
+
+            <h2 class="user-info__name">Andrés Fernández</h2>
+            <h4 class="user-info__job">Desarrollador Web</h4>
+          </div>
+          <!-- Menú de navegación -->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <div class="switcher__btn">
+              <li class="menu__option-dark--theme">
+                <a  class="menu__link">
+                  <i class="menu__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"    class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+                      <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                      <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+                    </svg>
+                  </i>
+                  <span class="menu__overlay">Modo Oscuro</span>
+                </a>
+              </li>
+              <li class="menu__option-light--theme">
+                <a  class="menu__link">
+                  <i class="menu__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                      <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                  </i>
+                  <span class="menu__overlay">Modo Claro</span>
+                </a>
+              </li>
+            </div>
+              <li class="menu__option">
+                <a href="index.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fas fa-home"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fas fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link">
+                  <i class="menu__icon fas fa-graduation-cap"></i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link">
+                  <i class="menu__icon fas fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <!-- <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fas fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li> -->
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link">
+                  <i class="menu__icon fas fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Links a redes sociales -->
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a
+                  href="https://twitter.com/AndresZc_pro"
+                  target="_blank"
+                  class="social__link"
+                  title="Twitter"
+                >
+                  <i class="social__icon fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a
+                  href="https://www.linkedin.com/in/andr%C3%A9s-fern%C3%A1ndez-cano-3455a4302/"
+                  target="_blank"
+                  class="social__link"
+                  title="Linkedin"
+                >
+                  <i class="social__icon fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a
+                  href="https://github.com/bigtikett"
+                  target="_blank"
+                  class="social__link"
+                  title="Github"
+                >
+                  <i class="social__icon fab fa-square-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Botón del curriculum -->
+          <div class="user-info__buttons">
+            <a title="Descarga directa" href="https://drive.google.com/uc?export=download&id=1wG44dnAVk_x_7TxMSHpMes0rvVhkOQBR" download="Portafolio - AndrésZc.pdf" class="user-info__btn">Descargar CV</a>
+          </div>
+          <!-- Pie de página -->
+          <footer class="user-info__footer">&copy; 2024 AndrésZc Web</footer>
+        </section>
+      </aside>
+
+      <!-- Menú responsive -->
+      <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fas fa-bars"></i>
+        <i class="menu-toggle__icon fas fa-xmark"></i>
+      </div>
+      <!-- Contenido principal -->
+      <main class="layout__content">
+        <section class="content__page area">
+            
+            <h1 class="page__name">Andrés Fernández</h1>
+            <p class="page__points">Puntos: <span id="contador">0</span></p>
+          <h2 class="page__job loader2"></h2>
+
+          <ul class="circles">
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+            <li class="circle"></li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script>
+      const circles = document.querySelectorAll(".circles .circle");
+      let count = 0  
+      circles.forEach((circle) => {
+        circle.addEventListener("click", () => {
+          circle.style.display = "none";
+          count ++;
+          contador()
+          setTimeout(() => {
+            circle.style.display = "block";
+          }, 3000);
+        });
+      });
+
+      function contador() {
+        document.getElementById('contador').innerHTML = count;
+      }
+      
+    </script>
+  </body>
+</html>
