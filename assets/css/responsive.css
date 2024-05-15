@@ -372,3 +372,16 @@
         max-height: 100%;
     }
 }
+
+/* @media (max-width:425px) {
+
+    .personal-info__description {
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+
+    .content__about {
+        padding: 1rem;
+    }
+
+} */

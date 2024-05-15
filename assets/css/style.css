@@ -665,7 +665,7 @@ color: greenyellow;
 }
 
 .reviews__review {
-    flex-basis: calc(50% - 3rem);
+    flex-basis: calc(100% - 3rem);
 
     border: 2px solid var(--color-border-reviews);
     border-radius: 2rem;
